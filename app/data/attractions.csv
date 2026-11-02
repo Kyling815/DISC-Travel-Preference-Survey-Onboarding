@@ -1,0 +1,21 @@
+id,name,themes,rating,estimated_cost,latitude,longitude,estimated_duration_minutes
+A01,Chronicle History Museum,history|museum|heritage,4.8,14,10.7769,106.7009,120
+A02,Old Citadel Gate,history|heritage|architecture|landmark,4.6,5,10.7790,106.6990,75
+A03,Heritage Craft House,heritage|culture|museum,4.5,9,10.7750,106.6980,90
+A04,Classical Architecture Walk,architecture|history|heritage,4.4,0,10.7810,106.7020,80
+A05,National Memory Gallery,history|museum|culture,4.7,12,10.7730,106.7040,110
+A06,Riverside Nature Garden,nature|landmark,4.7,4,10.7870,106.7100,100
+A07,Interactive Science Dome,museum|entertainment,4.6,18,10.7700,106.7100,120
+A08,Panorama Observation Tower,landmark|architecture|entertainment,4.5,16,10.7830,106.7060,70
+A09,Contemporary Culture Center,culture|entertainment|architecture,4.4,11,10.7680,106.6970,100
+A10,Urban Forest Trail,nature|culture,4.6,0,10.7900,106.6950,130
+A11,Night Performance Hall,entertainment|culture,4.8,28,10.7740,106.7130,150
+A12,Central Landmark Plaza,landmark|culture|architecture,4.3,0,10.7780,106.7050,60
+A13,Botanical Discovery Park,nature|museum,4.5,8,10.7960,106.7140,140
+A14,Digital Arts Playground,entertainment|culture|museum,4.6,20,10.7650,106.7080,100
+A15,Lakeside Ecology Deck,nature|landmark,4.4,3,10.8030,106.7040,90
+A16,Historic Archive Library,history|heritage|architecture,4.7,6,10.7720,106.6950,105
+A17,World Culture Pavilion,culture|museum|landmark,4.6,13,10.7850,106.6960,120
+A18,Adventure Motion Park,entertainment|nature,4.3,24,10.7990,106.7200,160
+A19,Architects Model Quarter,architecture|museum|landmark,4.5,10,10.7800,106.7120,95
+A20,Community Market Lab,culture|market|entertainment,4.4,7,10.7690,106.7020,85

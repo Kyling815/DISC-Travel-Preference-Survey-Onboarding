@@ -1,0 +1,72 @@
+{
+  "category_order": ["accommodation", "restaurants", "flights", "attractions", "local_mobility"],
+  "questions": [
+    {
+      "id": "q1", "group": "disc", "text": "When planning a trip, what matters most to you?",
+      "options": [
+        {"id": "A", "text": "Quickly identifying the destination and main activities.", "disc": "D", "evidence": {"attractions": 1.0, "local_mobility": 0.5}},
+        {"id": "B", "text": "Finding interesting experiences to share with others.", "disc": "I", "evidence": {"attractions": 1.0, "restaurants": 0.5}},
+        {"id": "C", "text": "Ensuring comfortable accommodation and a relaxed schedule.", "disc": "S", "evidence": {"accommodation": 1.0, "local_mobility": 0.5}},
+        {"id": "D", "text": "Carefully researching flights, costs, and reviews.", "disc": "C", "evidence": {"flights": 1.0, "accommodation": 0.5}}
+      ]
+    },
+    {
+      "id": "q2", "group": "disc", "text": "How do you react to unexpected itinerary changes?",
+      "options": [
+        {"id": "A", "text": "Adjust the schedule to preserve important attractions.", "disc": "D", "evidence": {"attractions": 1.0, "local_mobility": 0.5}},
+        {"id": "B", "text": "Find alternative restaurants or experiences.", "disc": "I", "evidence": {"restaurants": 1.0, "attractions": 0.5}},
+        {"id": "C", "text": "Choose the least disruptive alternative.", "disc": "S", "evidence": {"accommodation": 1.0, "local_mobility": 0.5}},
+        {"id": "D", "text": "Compare alternatives based on timing and reliability.", "disc": "C", "evidence": {"flights": 1.0, "local_mobility": 0.5}}
+      ]
+    },
+    {
+      "id": "q3", "group": "disc", "text": "How do you choose between multiple itineraries?",
+      "options": [
+        {"id": "A", "text": "Maximize sightseeing and time efficiency.", "disc": "D", "evidence": {"attractions": 1.0, "local_mobility": 0.5}},
+        {"id": "B", "text": "Prioritize local cuisine and social activities.", "disc": "I", "evidence": {"restaurants": 1.0, "attractions": 0.5}},
+        {"id": "C", "text": "Prefer a relaxed itinerary with minimal transfers.", "disc": "S", "evidence": {"accommodation": 1.0, "local_mobility": 0.5}},
+        {"id": "D", "text": "Prefer detailed, reliable, low-risk plans.", "disc": "C", "evidence": {"flights": 1.0, "local_mobility": 0.5}}
+      ]
+    },
+    {
+      "id": "q4", "group": "travel", "text": "What makes a trip most satisfying?",
+      "options": [
+        {"id": "A", "text": "Comfortable accommodation.", "evidence": {"accommodation": 3, "local_mobility": 1}},
+        {"id": "B", "text": "Memorable local cuisine.", "evidence": {"restaurants": 3, "attractions": 1}},
+        {"id": "C", "text": "Convenient flights.", "evidence": {"flights": 3, "local_mobility": 1}},
+        {"id": "D", "text": "Exploring attractions.", "evidence": {"attractions": 3, "restaurants": 1}},
+        {"id": "E", "text": "Convenient local transportation.", "evidence": {"local_mobility": 3, "accommodation": 1}}
+      ]
+    },
+    {
+      "id": "q5", "group": "travel", "text": "Which service would you upgrade?",
+      "options": [
+        {"id": "A", "text": "Better accommodation.", "evidence": {"accommodation": 3, "local_mobility": 1}},
+        {"id": "B", "text": "Premium dining experience.", "evidence": {"restaurants": 3, "attractions": 1}},
+        {"id": "C", "text": "Better flight experience.", "evidence": {"flights": 3, "accommodation": 1}},
+        {"id": "D", "text": "Unique attractions and experiences.", "evidence": {"attractions": 3, "restaurants": 1}},
+        {"id": "E", "text": "Better local transportation.", "evidence": {"local_mobility": 3, "accommodation": 1}}
+      ]
+    },
+    {
+      "id": "q6", "group": "travel", "text": "What would you inspect first in an AI itinerary?",
+      "options": [
+        {"id": "A", "text": "Accommodation quality.", "evidence": {"accommodation": 3, "local_mobility": 1}},
+        {"id": "B", "text": "Restaurants and food.", "evidence": {"restaurants": 3, "attractions": 1}},
+        {"id": "C", "text": "Flight schedules.", "evidence": {"flights": 3, "local_mobility": 1}},
+        {"id": "D", "text": "Attractions and activities.", "evidence": {"attractions": 3, "restaurants": 1}},
+        {"id": "E", "text": "Transportation efficiency.", "evidence": {"local_mobility": 3, "attractions": 1}}
+      ]
+    },
+    {
+      "id": "q7", "group": "travel", "text": "Under budget limitations, which component would you preserve?",
+      "options": [
+        {"id": "A", "text": "Accommodation.", "evidence": {"accommodation": 3, "local_mobility": 1}},
+        {"id": "B", "text": "Restaurants.", "evidence": {"restaurants": 3, "attractions": 1}},
+        {"id": "C", "text": "Flights.", "evidence": {"flights": 3, "local_mobility": 1}},
+        {"id": "D", "text": "Attractions.", "evidence": {"attractions": 3, "restaurants": 1}},
+        {"id": "E", "text": "Local Mobility.", "evidence": {"local_mobility": 3, "accommodation": 1}}
+      ]
+    }
+  ]
+}

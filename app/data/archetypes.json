@@ -1,0 +1,9 @@
+{
+  "profiles": [
+    {"name": "heritage_specialist", "answers": {"q1":"A","q2":"A","q3":"A","q4":"D","q5":"D","q6":"D","q7":"D"}, "scope":"specialized", "themes":["history","museum","heritage","architecture"], "density":"moderate", "count":3, "max_transfer":25, "rating":3, "budget":2, "mobility":"compact"},
+    {"name": "mixed_generalist", "answers": {"q1":"A","q2":"A","q3":"A","q4":"D","q5":"D","q6":"D","q7":"D"}, "scope":"general", "themes":["history","museum","nature","landmark"], "density":"high", "count":5, "max_transfer":25, "rating":3, "budget":2, "mobility":"compact"},
+    {"name": "nature_specialist", "answers": {"q1":"A","q2":"A","q3":"A","q4":"D","q5":"D","q6":"D","q7":"D"}, "scope":"specialized", "themes":["nature","landmark"], "density":"moderate", "count":3, "max_transfer":25, "rating":3, "budget":2, "mobility":"compact"},
+    {"name": "food_specialist", "answers": {"q1":"B","q2":"B","q3":"B","q4":"B","q5":"B","q6":"B","q7":"B"}, "scope":"specialized", "themes":["culture","market"], "density":"moderate", "count":3, "max_transfer":35, "rating":4, "budget":3, "mobility":"balanced"},
+    {"name": "efficiency_planner", "answers": {"q1":"D","q2":"D","q3":"D","q4":"E","q5":"E","q6":"E","q7":"E"}, "scope":"general", "themes":["landmark","architecture"], "density":"moderate", "count":3, "max_transfer":15, "rating":3, "budget":4, "mobility":"compact"}
+  ]
+}

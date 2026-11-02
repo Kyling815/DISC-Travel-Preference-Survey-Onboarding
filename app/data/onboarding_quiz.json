@@ -1,0 +1,75 @@
+{
+  "version": "2.0",
+  "language": "vi",
+  "questions": [
+    {
+      "id": "q1", "group": "disc", "input_type": "single_choice",
+      "text": "Khi bắt đầu một chuyến đi, bạn thường làm gì trước?",
+      "options": [
+        {"id": "A", "text": "Chốt nhanh mục tiêu và những nơi nhất định phải đến.", "disc": "D"},
+        {"id": "B", "text": "Trao đổi với người đi cùng để tìm trải nghiệm thú vị.", "disc": "I"},
+        {"id": "C", "text": "Xây dựng lịch trình thoải mái và ổn định.", "disc": "S"},
+        {"id": "D", "text": "So sánh chi phí, thời gian, đánh giá và các phương án.", "disc": "C"}
+      ]
+    },
+    {
+      "id": "q2", "group": "disc", "input_type": "single_choice",
+      "text": "Nếu một hoạt động quan trọng bị hủy, bạn thường làm gì?",
+      "options": [
+        {"id": "A", "text": "Quyết định ngay một phương án khác để giữ mục tiêu chuyến đi.", "disc": "D"},
+        {"id": "B", "text": "Tìm một hoạt động mới thú vị cho cả nhóm.", "disc": "I"},
+        {"id": "C", "text": "Chọn phương án ít làm xáo trộn lịch trình nhất.", "disc": "S"},
+        {"id": "D", "text": "So sánh các phương án dựa trên dữ liệu trước khi chọn.", "disc": "C"}
+      ]
+    },
+    {
+      "id": "q3", "group": "disc", "input_type": "single_choice",
+      "text": "Khi những người trong nhóm có ý kiến khác nhau, bạn thường xử lý thế nào?",
+      "options": [
+        {"id": "A", "text": "Chủ động chọn phương án phù hợp nhất với mục tiêu chung.", "disc": "D"},
+        {"id": "B", "text": "Thảo luận để tìm phương án mọi người cùng hứng thú.", "disc": "I"},
+        {"id": "C", "text": "Ưu tiên sự thoải mái và đồng thuận.", "disc": "S"},
+        {"id": "D", "text": "Phân tích ưu, nhược điểm của từng lựa chọn.", "disc": "C"}
+      ]
+    },
+    {
+      "id": "q4", "group": "category", "input_type": "allocation",
+      "text": "Phân bổ 100 điểm ưu tiên cho năm thành phần của chuyến đi.",
+      "fields": ["accommodation", "restaurants", "flights", "attractions", "local_mobility"],
+      "total": 100
+    },
+    {
+      "id": "q5", "group": "category", "input_type": "multi_choice",
+      "text": "Nếu ngân sách không đủ, hãy chọn đúng hai thành phần bạn muốn bảo toàn nhất.",
+      "options": [
+        {"id": "accommodation", "text": "Chất lượng lưu trú"},
+        {"id": "restaurants", "text": "Trải nghiệm ẩm thực"},
+        {"id": "flights", "text": "Phương tiện liên tỉnh thuận tiện"},
+        {"id": "attractions", "text": "Các điểm tham quan mong muốn"},
+        {"id": "local_mobility", "text": "Di chuyển nội thành thuận tiện"}
+      ],
+      "min_selections": 2, "max_selections": 2
+    },
+    {
+      "id": "q6", "group": "criterion", "input_type": "tradeoff_matrix",
+      "text": "Chọn phương án phù hợp hơn trong từng cặp đánh đổi.",
+      "tradeoffs": [
+        {"id": "theme_vs_rating", "left": {"text": "Đúng chủ đề nhưng rating thấp hơn", "criterion": "attribute_match"}, "right": {"text": "Rating cao nhưng ít đúng chủ đề", "criterion": "rating"}},
+        {"id": "match_vs_budget", "left": {"text": "Rất phù hợp nhưng chi phí cao hơn", "criterion": "attribute_match"}, "right": {"text": "Khá phù hợp nhưng tiết kiệm hơn", "criterion": "budget"}},
+        {"id": "specialization_vs_diversity", "left": {"text": "Tập trung sâu vào chủ đề yêu thích", "criterion": "attribute_match"}, "right": {"text": "Kết hợp nhiều loại hoạt động", "criterion": "diversity"}},
+        {"id": "quality_vs_compactness", "left": {"text": "Đi xa hơn để có lựa chọn phù hợp nhất", "criterion": "attribute_match"}, "right": {"text": "Chọn các địa điểm gần nhau", "criterion": "compactness"}}
+      ]
+    },
+    {
+      "id": "q7", "group": "activity", "input_type": "structured",
+      "text": "Xác nhận cấu trúc hoạt động và giới hạn di chuyển.",
+      "fields": {
+        "preference_scope": ["specialized", "general"],
+        "activity_density": ["low", "moderate", "high"],
+        "preferred_attraction_count": {"min": 1, "max": 15},
+        "preferred_food_experience_count": {"min": 0, "max": 15},
+        "max_transfer_minutes": {"min": 5, "max": 240, "nullable": true}
+      }
+    }
+  ]
+}
